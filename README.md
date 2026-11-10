@@ -26,8 +26,9 @@ Ce dépôt centralise tous mes Travaux Pratiques réalisés au cours de ma forma
 - [OSINT Report TP1](https://github.com/koudadzejosias-wq/osint-report-tp1)
 - [Forensics Carving TP2](https://github.com/koudadzejosias-wq/forensics-carving-tp2)
 
-### Programmation
+### Programmation Java
 - [Java TP1 - Variables](https://github.com/koudadzejosias-wq/java-tp1-variables)
+- [Java TP2 - Structures de contrôle (if, switch, for, while, do-while)](Java/TP2_Structures_Controle/) – Bulletin, MenuAgence, Filiere, Recus, Epargne, Retraits, CompareBoucles, Caisse
 
 ### Autres
 - [Stegano Zeno Writeup](https://github.com/koudadzejosias-wq/stegano-zeno-writeup)
