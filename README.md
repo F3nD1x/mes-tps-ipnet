@@ -22,6 +22,10 @@ Ce dépôt centralise tous mes Travaux Pratiques réalisés au cours de ma forma
 - [TP8 - Fast Scanner](https://github.com/koudadzejosias-wq/fast-scanner-tp8)
 - [TP9 - Hydra](https://github.com/koudadzejosias-wq/hydra-tp9)
 
+### NET 365 — Architecture réseau et routage avancé
+- [**TP1 - TECHNOVA (Semaines 1 & 2)**](NET365/TP1/) – VLSM, configuration IOS, routage statique, routes flottantes, EIGRP AS 200, DUAL  
+  Rapport + configs Cisco + projets GNS3
+
 ### Forensics & OSINT
 - [OSINT Report TP1](https://github.com/koudadzejosias-wq/osint-report-tp1)
 - [Forensics Carving TP2](https://github.com/koudadzejosias-wq/forensics-carving-tp2)
