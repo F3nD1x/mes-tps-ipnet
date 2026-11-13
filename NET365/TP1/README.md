@@ -16,15 +16,11 @@ Travaux dirigés et pratiques des Semaines 1 et 2 :
 ## Contenu du dossier
 
 ```
-NET365_TP1/
+NET365/TP1/
 ├── README.md
-├── rapport/
-│   └── RAPPORT_NET_365_TP1_L2G2.pdf   # Rapport complet avec justifications
-├── PartieA/
-│   └── PartieA.gns3                   # Projet GNS3 Partie A
-├── PartieB/
-│   ├── PartieB.gns3                   # Projet GNS3 Partie B (statique)
-│   └── PartieB_EIGRP.gns3             # Projet GNS3 Partie B (EIGRP)
+├── PartieA.gns3                   # Projet GNS3 Partie A
+├── PartieB.gns3                   # Projet GNS3 Partie B (statique + flottante)
+├── PartieB_EIGRP.gns3             # Projet GNS3 Partie B (EIGRP AS 200)
 └── configs/
     ├── PartieA/
     │   ├── R1.cfg
@@ -45,6 +41,22 @@ NET365_TP1/
 | Serveurs       | 192.168.10.128/28 | 255.255.255.240 | 192.168.10.129    | 192.168.10.142  | 192.168.10.143  |
 | Liaison R1–R2  | 192.168.10.144/30 | 255.255.255.252 | 192.168.10.145    | 192.168.10.146  | 192.168.10.147  |
 
+## Plan d’adressage (Partie B)
+
+| Équipement / interface | Adresse/préfixe |
+|------------------------|-----------------|
+| R1 vers R2             | 10.10.12.1/30   |
+| R2 vers R1             | 10.10.12.2/30   |
+| R2 vers R4             | 10.10.24.1/30   |
+| R4 vers R2             | 10.10.24.2/30   |
+| R1 vers R3             | 10.10.13.1/30   |
+| R3 vers R1             | 10.10.13.2/30   |
+| R3 vers R4             | 10.10.34.1/30   |
+| R4 vers R3             | 10.10.34.2/30   |
+| R1 vers LAN-SIÈGE      | 192.168.10.1/24 |
+| R4 vers LAN-SERVICES   | 192.168.20.1/24 |
+| R4 vers LAN-APP        | 192.168.30.1/24 |
+
 ## Simulateur
 
 - GNS3 + Dynamips (routeurs Cisco 7200 – IOS 12.4)
@@ -55,7 +67,7 @@ NET365_TP1/
 
 1. Fichiers de simulation GNS3 (Partie A et Partie B)
 2. Configurations IOS finales (fichiers .cfg)
-3. Rapport PDF complet (justifications techniques, tableaux, tests ping/traceroute, synthèse)
+3. Rapport PDF complet (justifications techniques, tableaux, tests ping/traceroute, synthèse) — disponible localement dans le package étudiant
 
 ---
 
